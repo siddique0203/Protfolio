@@ -226,10 +226,7 @@ body {
     font-style: italic;
     left:20px;
 }
-.aedu {
-    margin-top: -5px;   
-    border: 1px solid black;
-}
+
 .projName {
     position: relative;
     font-size: 19px;
@@ -237,10 +234,6 @@ body {
     text-decoration: underline;
     font-style: italic;
     left: 20px;
-}
-.aproj {
-    margin-top: -5px;
-    border: 1px solid black;
 }
 
 .expName {
@@ -251,10 +244,6 @@ body {
     font-style: italic;
     left: 20px;
 }
-.aexp {
-    margin-top: -5px;
-    border: 1px solid black;
-}
 
 .skillName,.othersName {
     position: relative;
@@ -264,15 +253,11 @@ body {
     font-style: italic;
     left: 20px;
 }
-.askills {
+.askills, .aothers, .aexp, .aproj, .aedu {
     margin-top: -5px;
     border: 1px solid black;
 }
 
-.aothers {
-    margin-top: -5px;
-    border: 1px solid black;
-}
 
 #cvBody {
     width: 800px;             
