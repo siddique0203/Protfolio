@@ -173,8 +173,8 @@ body {
     width: 100%;
     padding: 20px;
     font-family: Arial, sans-serif;
-    margin-bottom: 20px; /* space below header */
-    position: relative; /* no need to shift with top:-150px */
+    margin-bottom: 20px; 
+    position: relative; 
     left:-21px;
     top:-8px
 }
@@ -214,7 +214,7 @@ body {
 }
 
 .aobj {
-    margin-top: -25px;   /* moves it 15px up */
+    margin-top: -25px;   
     border: 1px solid black;
 }
 
@@ -227,7 +227,7 @@ body {
     left:20px;
 }
 .aedu {
-    margin-top: -5px;   /* moves it 15px up */
+    margin-top: -5px;   
     border: 1px solid black;
 }
 .projName {
@@ -275,13 +275,13 @@ body {
 }
 
 #cvBody {
-    width: 800px;             /* Fixed width like a CV page */
-    min-height: 1100px;       /* Minimum height similar to A4 */
-    margin: 20px auto;        /* Centers the CV horizontally */
-    padding: 30px;            /* Inner spacing */
-    background: white;        /* White background for CV */
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);  /* Adds a subtle shadow */
-    border: 1px solid #ccc;   /* Optional border */
+    width: 800px;             
+    min-height: 1100px;       
+    margin: 20px auto;        
+    padding: 30px;            
+    background: white;       
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);  
+    border: 1px solid #ccc;   
 }
 
 .onehr {
