@@ -139,7 +139,7 @@ footer{
     font-style: italic;
 
 }
-#cvButton{
+#cvButton, #GO{
     position:absolute;
     top:30%;
     left: 40%;
@@ -150,7 +150,7 @@ footer{
     border-radius: 5px;
     font-weight: bold;
 }
-#cvButton:hover{
+#cvButton:hover, #GO:hover{
     transform: scale(1.7);
     transition: transform 0.5s ease-in-out;
     cursor: progress;
