@@ -128,14 +128,6 @@
 
 
 
-
-
-
-
-
-
-
-
 footer{
    background: #020024;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%,
@@ -152,4 +144,133 @@ body {
     margin: 0;
     margin-top: 135px;
     
+}
+
+
+
+
+
+
+
+
+.cvheader {
+    width: 100%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px; /* space below header */
+    position: relative; /* no need to shift with top:-150px */
+    left:-21px;
+    top:-8px
+}
+
+.cvName {
+    font-size: 25px;
+    text-align: left;
+    
+}
+
+.cvP {
+    font-size: 15px;
+    display: block;
+    margin-top: 5px;
+}
+
+.cvContact {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    text-align: right;
+    
+}
+
+.obj {
+    margin: 10px 20px;
+    position: relative;
+    left:0px;
+    top: -20px;
+}
+
+.objective {
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.aobj {
+    margin-top: -25px;   /* moves it 15px up */
+    border: 1px solid black;
+}
+
+.eduName{
+    position: relative;
+    font-size: 19px;
+    font-weight:bold;
+    text-decoration: underline;
+    font-style: italic;
+    left:20px;
+}
+.aedu {
+    margin-top: -5px;   /* moves it 15px up */
+    border: 1px solid black;
+}
+.projName {
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    left: 20px;
+}
+.aproj {
+    margin-top: -5px;
+    border: 1px solid black;
+}
+
+.expName {
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    left: 20px;
+}
+.aexp {
+    margin-top: -5px;
+    border: 1px solid black;
+}
+
+.skillName,.othersName {
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    left: 20px;
+}
+.askills {
+    margin-top: -5px;
+    border: 1px solid black;
+}
+
+.aothers {
+    margin-top: -5px;
+    border: 1px solid black;
+}
+
+#cvBody {
+    width: 800px;             /* Fixed width like a CV page */
+    min-height: 1100px;       /* Minimum height similar to A4 */
+    margin: 20px auto;        /* Centers the CV horizontally */
+    padding: 30px;            /* Inner spacing */
+    background: white;        /* White background for CV */
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);  /* Adds a subtle shadow */
+    border: 1px solid #ccc;   /* Optional border */
+}
+
+.onehr {
+    margin-top: -5px;
+    border: 1px solid black;
+    position: relative;
+    top: -18px;
 }
